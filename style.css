@@ -1,0 +1,87 @@
+/* General Rules */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    height: 100000px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+/* Header Styling */
+
+.navbar{
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0,0.7) !important;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-brand h3{
+    color: #fff;
+    font-weight: 600;
+} 
+
+.nav-link{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 15px !important;
+    transition: 0.3s all ease-in-out;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid #fff
+}
+
+#header{
+    height: 100vh;
+    background-image: url(images/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.welcome-text{
+    height: 100vh;
+    flex-direction: column !important;
+    position: inline-block !important;
+}
+
+.welcome-text h1,h6{
+    color: #fff;
+    z-index: 2 !important;
+    text-align: center;
+}
+
+.welcome-text h1{
+    font-size: 60px;
+}
+
+.welcome-text h6{
+    font-size: 40px;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.5) !important;
+}
+
